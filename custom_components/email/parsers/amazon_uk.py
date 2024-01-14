@@ -6,7 +6,7 @@ from ..const import EMAIL_ATTR_BODY, EMAIL_ATTR_SUBJECT
 
 
 _LOGGER = logging.getLogger(__name__)
-ATTR_AMAZON_UK = 'amazon'
+ATTR_AMAZON_UK = 'amazon_uk'
 EMAIL_DOMAIN_AMAZON_UK = 'amazon.co.uk'
 
 def parse_amazon_uk(email):
