@@ -12,7 +12,7 @@ EMAIL_DOMAIN_AMAZON = 'amazon.com'
 def parse_amazon(email):
     """Parse Amazon tracking numbers."""
     tracking_numbers = []
- 
+
     soup = BeautifulSoup(email[EMAIL_ATTR_BODY], 'html.parser')
 
     # see if it's an shipped order email
